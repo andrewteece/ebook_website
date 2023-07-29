@@ -8,4 +8,28 @@ $secondary: hsl(194, 87%, 50%);
 $dark: hsl(226, 20%, 21%);
 $light: hsl(210, 33%, 96%);
 
+// NAVBAR
+
+$navbar-padding-y: 1rem;
+$navbar-dark-color: hsl(0, 0%, 100%);
+$navbar-dark-hover-color: $secondary;
+
+$navbar-toggler-border-radius: 5px;
+
+// BUTTONS
+
+$button-radius: 3.125rem;
+$button-padding-x: 1.875rem;
+$button-padding-y: 0.625rem;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
